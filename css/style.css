@@ -24,7 +24,7 @@ html {
 }
 
 .card-image {
-  height: 240px;
+  height: 310px;
   overflow: hidden;
 }
 
@@ -36,9 +36,9 @@ html {
   background-color:rgb(64, 52, 121) !important;
 }
 
-#giphy{
+/* #giphy{
   padding-top: 60px;
-}
+} */
 #main{
   width: 100%;
   margin: auto;
@@ -66,9 +66,9 @@ margin-top: 0px;
   /* width: 400px; */
 }
 
-#pocket {
+/* #pocket {
   padding-top: 27px;
-}
+} */
 
 #portfolio {
   text-shadow: 2px 2px 4px #000000;
@@ -84,13 +84,13 @@ margin-top: 0px;
   background: linear-gradient(rgb(245, 86, 86), rgb(242, 125, 219));
 }
 
-#trivia {
+/* #trivia {
   padding-top: 17px;
-}
+} */
 
-#volunteer {
+/* #volunteer {
   margin-top: -10px;
-}
+} */
 
 #wrapper {
   position:relative;
