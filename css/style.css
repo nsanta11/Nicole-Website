@@ -23,8 +23,9 @@ html {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.card {
-  min-height: 340px;
+.card-image {
+  height: 240px;
+  overflow: hidden;
 }
 
 #crystals{
@@ -36,7 +37,7 @@ html {
 }
 
 #giphy{
-  padding-top: 70px;
+  padding-top: 60px;
 }
 #main{
   width: 100%;
