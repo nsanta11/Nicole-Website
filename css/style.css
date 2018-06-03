@@ -23,8 +23,37 @@ html {
   text-shadow: 2px 2px 4px #000000;
 }
 
+.cactus {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index:3;
+  width: 100%;
+ 
+  height: 200px;
+  border:0 none transparent;
+  outline:0 none transparent;
+  -webkit-transform: translate3d(0,0,0.01);
+  transform:translate3d(0,0,0.01);
+  will-change: transform;
+}
+
+.cactus-overlay {
+  width: 200px;
+  height: 100%;
+}
+
+.card:hover{
+  /* This is 52px total. 1/2 of that is for top and the other half is for bottom. */
+  height: 350px;
+  /* Below we are not using -26px for margin-top because .box has 6px border and 10px margin. */
+  /* That 16px is then divide by 2 since it's for both top and bottom, or 8px per side. */
+  /* Having said that, 26px - 8px is 18px. We need negative value to position it correctly. */
+  margin-top: -10px;
+}
+
 .card-image {
-  height: 310px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -102,7 +131,7 @@ margin-top: 0px;
 #ground {
   background: url('./images/banner-foreground copy.png'), repeat-x 0 0 transparent;    
   position: absolute; 
-  /* display: block; */
+  display: block; 
   bottom: 0;
   left: 0;
   z-index:3;
@@ -119,7 +148,7 @@ margin-top: 0px;
 #mountain {
   background: url('./images/pirple.png'), repeat-x 0 0 transparent;    
   position: absolute; 
-  /* display: block; */
+  display: block;
   bottom: 0;
   left: 0;
   z-index:2;
@@ -135,12 +164,12 @@ margin-top: 0px;
 
  #color {
   background-color:white;
-  /* background: linear-gradient(to right, rgb(0, 244, 179), rgb(135, 255, 173)) */
+   /* background: linear-gradient(to right, rgb(0, 244, 179), rgb(135, 255, 173)) */
 }
 
-#nicole {
-  /* text-shadow: 2px 2px 4px #000000; */
-}
+/* #nicole {
+   text-shadow: 2px 2px 4px #000000; 
+} */
 
 #nic{
   height: auto !important; 
