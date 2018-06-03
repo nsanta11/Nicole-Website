@@ -24,7 +24,7 @@ html {
 }
 
 .card {
-  max-height: 350px;
+  min-height: 340px;
 }
 
 #crystals{
