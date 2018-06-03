@@ -51,21 +51,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
         ease: Linear.easeNone
       });
 
-      document.getElementById("mountain").addEventListener("click", myFunction);
+      // document.getElementById("mountain").addEventListener("click", myFunction);
 
-      function myFunction() {
+      // function myFunction() {
 
-        console.log("yaaas")
+      //   console.log("yaaas")
     
-        tl.to("#mountain", 0, {
-            backgroundPosition: "-1301px 0px",
-            force3D:true,
-            rotation:0.01,
-            z:0.01,
-            autoRound:false,
-            ease: Linear.easeNone
-          });
-      }
+      //   tl.to("#mountain", 0, {
+      //       backgroundPosition: "-1301px 0px",
+      //       force3D:true,
+      //       rotation:0.01,
+      //       z:0.01,
+      //       autoRound:false,
+      //       ease: Linear.easeNone
+      //     });
+      // }
 
     //   document.getElementById("#mountain").addEventListener("click", myFunction);
     //   function myFunction() {
