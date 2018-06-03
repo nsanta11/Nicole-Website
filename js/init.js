@@ -88,7 +88,6 @@ window.onload = function() {
   masterTL
   .add(ground(),0)
   .add(mountain(), 0)
-  .add(clouds(),0)
   .timeScale(0.7)
   .progress(1).progress(0)
   .play();
