@@ -57,9 +57,9 @@ html {
   overflow: hidden;
 }
 
-#crystals{
+/* #crystals{
   padding-top: 18px;
-}
+} */
 
 #footer {
   background-color:rgb(64, 52, 121) !important;
@@ -276,8 +276,12 @@ p {
     margin-top: -400px;
   
   }
-}
 
+  #mountain {
+    max-height: 200px;
+  }
+}
+/* 
 @media only screen and (max-width : 480px) {
   .parallax-container .section {
     width: 100%;
@@ -290,10 +294,13 @@ p {
     max-height: 600px !important; 
     margin-left:20px;
     margin-top: 0px;
-
+  }
+  #ground {
+    max-height: 200px;
+    height: 200px;
   }
 
-}
+} */
 
 @media only screen and (max-width : 480px) {
   .parallax-container .section {
@@ -307,7 +314,11 @@ p {
     max-height: 600px !important; 
     margin-left:-30px;
     margin-top: 0px;
+  }
 
+  #mountain {
+    max-height: 200px;
+    height: 200px;
   }
 
 }
