@@ -23,6 +23,11 @@ html {
   text-shadow: 2px 2px 4px #000000;
 }
 
+.btn-large {
+  margin-top:15px;
+  margin-bottom: 30px;
+}
+
 .cactus {
   position: absolute;
   bottom: 0;
@@ -45,7 +50,7 @@ html {
 
 .card:hover{
   /* This is 52px total. 1/2 of that is for top and the other half is for bottom. */
-  height: 350px;
+  height: 300px;
   /* Below we are not using -26px for margin-top because .box has 6px border and 10px margin. */
   /* That 16px is then divide by 2 since it's for both top and bottom, or 8px per side. */
   /* Having said that, 26px - 8px is 18px. We need negative value to position it correctly. */
@@ -57,12 +62,40 @@ html {
   overflow: hidden;
 }
 
+.card-img {
+  height: 250px;
+  /* width: 300px; */
+  overflow: hidden;
+  /* padding-left: 10px; */
+}
 /* #crystals{
   padding-top: 18px;
 } */
 
+#design {
+/* background-color:rgb(250, 148, 92); */
+background-color:rgb(232, 70, 86);
+/* background-color:rgb(61, 34, 113); */
+/* background-color:rgb(232, 75, 91); */
+}
+
+#design-work {
+}
+
+#fhi, #pts, #seed {
+  height: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+
 #footer {
   background-color:rgb(64, 52, 121) !important;
+}
+
+#contactForm {
 }
 
 /* #giphy{
@@ -81,6 +114,16 @@ html {
   /* background: linear-gradient rgb(230, 148, 220), rgb(193, 67, 0); */
 }
 
+#git-icon {
+  right: 24px; 
+  bottom: 375px;
+}
+
+#linked-icon {
+  right: -37px; 
+  bottom: 312px;
+}
+
 #logo {
   height: 40px;
   margin-top: 10px;
@@ -91,6 +134,14 @@ html {
 margin-top: 0px;
 } 
 
+#nicole {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
 #pic1 {
   /* width: 400px; */
 }
@@ -99,13 +150,25 @@ margin-top: 0px;
   padding-top: 27px;
 } */
 
-#portfolio {
-  text-shadow: 2px 2px 4px #000000;
+#portfolio, #design-work {
+  text-shadow: 2px 2px 4px #000000cf;
 }
 
 #projects {
-  background-color:rgb(245, 86, 102);
+  /* background-color:rgb(245, 86, 102); */
+  background-color:rgb(232, 70, 86);
+  /* background-color: rgb(117, 84, 145); */
   padding-bottom: 50px;
+}
+
+#react,#node, #mongo, #mysql, #github, #es6, #passport, #semantic {
+  height:50px;
+  padding: 5px;
+}
+
+#space {
+  height: 50px;
+  background-color:rgb(232, 70, 86);
 }
 
 #sunset{
@@ -279,6 +342,7 @@ p {
 
   #mountain {
     max-height: 200px;
+    height: 200px;
   }
 }
 /* 

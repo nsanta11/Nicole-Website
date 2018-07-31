@@ -182,3 +182,11 @@ window.onload = function() {
 };
   
 });
+
+$('#mail').submit(function() {
+  var post_data = $('#mail').serialize();
+  $.post('contactForm.php', post_data, function(data) {
+    $('#notification').show();
+  });
+});
+
