@@ -11,6 +11,11 @@ html {
   background:#63D0FF;
   height:100%;
 } */
+nav {
+  position: fixed;
+  top: 0px;
+  z-index: 4;
+}
 
 #cactus {
   line-height: 45px;
