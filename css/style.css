@@ -110,6 +110,7 @@ background-color:rgb(232, 70, 86);
 #index-first {
   /* background-color:rgb(230, 148, 220); */
   height:550px;
+  margin-top: 50px;
   /* background: linear-gradient rgb(230, 148, 220), rgb(193, 67, 0); */
 }
 
